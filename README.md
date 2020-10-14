@@ -36,7 +36,7 @@ Please see the Postman folder.
 
 A simple form of authentication has been implemented which requires a MerchantValidationID and APIKey to be specified in the header.
 
-**Improvements**
+**Improvements** :- 
 In the future this form of authentication should be replaced with well established authentication frameworks, the kind that uses bearer tokens and has limited sessions.
 
 
@@ -54,7 +54,7 @@ Measures have also been taken to prevent valid merchants from accessing data bel
 The application uses the Entity Framework Core ORM as a means of persisting all data related items onto disk via SQL Server database.
 It has been implemented using the repository pattern, and features data relating the currency codes, merchant data and payment logs.
 
-**Improvements**
+**Improvements** :- 
 For future improvements, this section of the code can be replaced with SharpRepositry 
 https://github.com/SharpRepository/SharpRepository
 
